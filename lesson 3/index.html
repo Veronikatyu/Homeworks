@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register Page</title>
 </head>
-<body>
-    
+<body style="margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; font-family: sans-serif;">
+  <div style="background: #ffffff; width: 327px; padding: 30px;">
+    <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
+      <div style="font-weight: bold; color: #3d3d3d; position: relative; padding: 0 10px;">Login</div>
+      <div style="font-weight: bold; color: #46A358; position: relative; padding: 0 10px;">Register</div>
+    </div>
+    <div style="text-align: center; color: #3D3D3D; margin-bottom: 20px; font-size: 14px;"> Enter your email and password to register.
+    </div>
+    <form>
+      <input type="text" id="username" placeholder="Username" required
+        style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #EAEAEA; border-radius: 5px; font-family: sans-serif;" />
+      <input type="email" id="email" placeholder="Enter your email address" required
+        style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #EAEAEA; border-radius: 5px; font-family: sans-serif;" />
+      <input type="password" id="password" placeholder="Password" required
+        style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #EAEAEA; border-radius: 5px; font-family: sans-serif;" />
+      <input type="password" id="confirm" placeholder="Confirm Password" required
+        style="width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #EAEAEA; border-radius: 5px; font-family: sans-serif;" />
+      <button type="submit"
+        style="width: 352px; padding: 12px; background: #46A358; color: #ffffff; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; font-family: sans-serif;">
+        Register
+      </button>
+    </form>
+    <div style="text-align: center; color: #3D3D3D99; margin: 20px 0; position: relative; font-family: sans-serif;">
+      <span style="background: #ffffff; padding: 0 10px; position: relative; z-index: 1;">Or register with</span>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px; margin-bottom: 10px; border: 1px solid #EAEAEA; border-radius: 4px; cursor: pointer; font-size: 14px; font-family: sans-serif; width: 100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google logo" style="width: 20px; height: 20px;" />
+      Continue with Google
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px; margin-bottom: 10px; border: 1px solid #EAEAEA; border-radius: 4px; cursor: pointer; font-size: 14px; font-family: sans-serif; width: 100%;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook logo" style="width: 20px; height: 20px;" />
+      Continue with Facebook
+  </div>
 </body>
 </html>
